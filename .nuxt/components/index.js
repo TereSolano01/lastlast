@@ -1,5 +1,5 @@
-export { default as FooterView } from '../..\\components\\global\\FooterView.vue'
-export { default as HeaderView } from '../..\\components\\global\\HeaderView.vue'
+export const FooterView = () => import('../..\\components\\global\\FooterView.vue' /* webpackChunkName: "components/footer-view" */).then(c => wrapFunctional(c.default || c))
+export const HeaderView = () => import('../..\\components\\global\\HeaderView.vue' /* webpackChunkName: "components/header-view" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
