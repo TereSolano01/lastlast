@@ -1,0 +1,44 @@
+[
+  {
+    "name": "authors_index",
+    "path": "/authors_index",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\authors_index.vue",
+    "chunkName": "pages/authors_index"
+  },
+  {
+    "name": "books_index",
+    "path": "/books_index",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\books_index.vue",
+    "chunkName": "pages/books_index"
+  },
+  {
+    "name": "publishers_index",
+    "path": "/publishers_index",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\publishers_index.vue",
+    "chunkName": "pages/publishers_index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "authors-slug",
+    "path": "/authors/:slug?",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\authors\\\\_slug.vue",
+    "chunkName": "pages/authors/_slug"
+  },
+  {
+    "name": "books-slug",
+    "path": "/books/:slug?",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\books\\\\_slug.vue",
+    "chunkName": "pages/books/_slug"
+  },
+  {
+    "name": "publishers-slug",
+    "path": "/publishers/:slug?",
+    "component": "C:\\\\Users\\\\Tere Solano\\\\Desktop\\\\Tutorial_05\\\\pages\\\\publishers\\\\_slug.vue",
+    "chunkName": "pages/publishers/_slug"
+  }
+]
