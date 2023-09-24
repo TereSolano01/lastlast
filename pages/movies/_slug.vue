@@ -16,7 +16,7 @@
        <img class="u-max-full-width" :src="'/images/'+movie.image">
      </div>
      <div class="six columns">
-       <h4>{{movie.name}}</h4>
+       <h4>{{movie.Título}}</h4>
        <div>  
                   <p> Director: {{movie.Director}}</p>
                   <p>Año: {{movie.year}}</p>

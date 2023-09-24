@@ -13,7 +13,6 @@
    <HeaderView />
    <div class="row">
      <div class="three columns">
-       <img class="u-max-full-width" :src="'/images/'+publisher.image">
      </div>
      <div class="six columns">
        <h4>{{publisher.name}}</h4>

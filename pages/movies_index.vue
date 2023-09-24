@@ -16,7 +16,7 @@
      <p>This section presents information about publishers</p>
    <ul>
      <li v-for="movie of movies" :key="movie.slug">
-       <NuxtLink :to="{ name: 'movies-slug', params: { slug: movie.slug } }">{{movie.Título}}</NuxtLink>
+       <NuxtLink :to="{ Título: 'movies-slug', params: { slug: movie.slug } }">{{movie.Título}}</NuxtLink>
      </li>
    </ul>
    <FooterView />
