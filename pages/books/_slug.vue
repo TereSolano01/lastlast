@@ -18,11 +18,11 @@
      </div>
      <div class="six columns">
        <h4>{{book.title}}</h4>
-	   by <NuxtLink :to="'/authors/'+book.authorId">{{author[0].name}}</NuxtLink></br>
+	   by <NuxtLink :to="'/authors/'+book.authorId">{{author[0].name}}</NuxtLink>
 	   Edition: {{book.edition}}; Copyright: {{book.copyright}}; 
-	   Language: {{book.language}}; Pages: {{book.pages}}</br>
-	   published by <NuxtLink :to="'/publishers/'+book.publisherId">{{publisher[0].name}}</NuxtLink></br></br>
-	   <b>Description</b></br>
+	   Language: {{book.language}}; Pages: {{book.pages}}
+	   published by <NuxtLink :to="'/publishers/'+book.publisherId">{{publisher[0].name}}</NuxtLink>
+	   Description
 	    <nuxt-content :document="book" />
 	 </div>
 	 <div class="two columns"></div>

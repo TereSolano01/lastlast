@@ -17,9 +17,9 @@
      </div>
      <div class="six columns">
        <h4>{{author.name}}</h4>
-	   Nationality: {{author.nationality}}; Born: {{author.birth_year}}</br>
-	   Fields: {{author.fields}}</br></br>
-	   <b>Biography</b></br>
+	   Nationality: {{author.nationality}}; Born: {{author.birth_year}}
+	   Fields: {{author.fields}}
+	   Biography
 	    <nuxt-content :document="author" />
 	 </div>
 	 <div class="three columns"></div>

@@ -1,18 +1,13 @@
 {
-  "name": "Tutorial_04",
-  "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
-  "author": "Armando Arce",
   "private": true,
-  "scripts": {
-    "dev": "nuxt dev",
+	  "scripts": {
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
-  "dependencies": {
-    "@netlify/plugin-nextjs": "^4.40.1",
-    "@nuxt/content": "^1.14.0",
-    "nuxt": "^2.14.0"
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.9",
+		"@nuxt/content": "2.1.1"
   }
 }

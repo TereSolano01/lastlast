@@ -17,9 +17,9 @@
      </div>
      <div class="six columns">
        <h4>{{publisher.name}}</h4>
-	   Country: {{publisher.country}}; Founded: {{publisher.founded}}</br>
-	   Genere: {{publisher.genere}}</br></br>
-	   <b>History</b></br>
+	   Country: {{publisher.country}}; Founded: {{publisher.founded}}
+	   Genere: {{publisher.genere}}
+	   History
 	    <nuxt-content :document="publisher" />
 	 </div>
 	 <div class="three columns"></div>
